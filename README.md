@@ -85,6 +85,15 @@ An intelligent resume analysis system powered by RAG (Retrieval Augmented Genera
 ```
 
 ---
+## PREVIEW:-
+
+![home](src/assets/image.png)
+
+![uploading](src/assets/image1.png)
+
+![chat](src/assets/image2.png)
+
+---
 
 ## 🚀 Tech Stack
 
@@ -125,7 +134,7 @@ An intelligent resume analysis system powered by RAG (Retrieval Augmented Genera
 
 1. **Clone Repository**
 ```bash
-git clone https://github.com/kramit624/ai-resume-analyzer.git
+git clone https://github.com/kramit624/ai-resume-analysis-backend.git
 cd ai-resume-analyzer
 ```
 
@@ -156,23 +165,29 @@ Backend runs at: `http://localhost:8000`
 
 ### **Frontend Setup**
 
-1. **Navigate to Frontend**
+1. **Clone Repository**
+```bash
+git clone https://github.com/kramit624/ai-resume-analysis-frontend.git
+cd ai-resume-analyzer
+```
+
+2. **Navigate to Frontend**
 ```bash
 cd frontend
 ```
 
-2. **Install Dependencies**
+3. **Install Dependencies**
 ```bash
 npm install
 ```
 
-3. **Update API URL** (in `src/App.jsx`)
+4. **Update API URL** (in `src/App.jsx`)
 ```javascript
 const API_URL = "http://localhost:8000"; // For local development
 // const API_URL = "https://your-backend.railway.app"; // For production
 ```
 
-4. **Run Frontend**
+5. **Run Frontend**
 ```bash
 npm run dev
 ```
@@ -557,118 +572,12 @@ ai-resume-analyzer/
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Here's how:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### **Development Guidelines**
-- Follow PEP 8 for Python code
-- Use ESLint for JavaScript
-- Add comments for complex logic
-- Update README for new features
-- Test thoroughly before submitting PR
-
----
-
-## 🗺️ Roadmap
-
-### **Phase 1: Current Features** ✅
-- [x] Resume upload and analysis
-- [x] ATS scoring
-- [x] Missing skills detection
-- [x] Improvement suggestions
-- [x] Q&A system
-- [x] Job search integration
-
-### **Phase 2: Planned Features** 🚧
-- [ ] Multiple resume formats (DOCX, TXT)
-- [ ] Resume template generator
-- [ ] Cover letter analysis
-- [ ] Interview preparation tips
-- [ ] Salary insights
-- [ ] Company reviews integration
-- [ ] Email job alerts
-- [ ] Resume comparison tool
-
-### **Phase 3: Advanced Features** 🔮
-- [ ] AI-powered resume builder
-- [ ] Mock interview simulator
-- [ ] Career path recommendations
-- [ ] LinkedIn profile optimizer
-- [ ] Portfolio website generator
-- [ ] Multi-language support
-- [ ] Mobile app (React Native)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License
-
-Copyright (c) 2024 Your Name
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
----
-
 ## 👨‍💻 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
-- Portfolio: [yourportfolio.com](https://yourportfolio.com)
+**AMIT RAJ**
 
 ---
 
-## 🙏 Acknowledgments
-
-- **Groq** - For lightning-fast LLM inference
-- **LangChain** - For RAG framework
-- **FAISS** - For efficient vector search
-- **FastAPI** - For modern Python web framework
-- **React** - For frontend framework
-- **Tailwind CSS** - For beautiful styling
-- **JSearch API** - For job listings data
-
----
-
-## 📞 Support
-
-Need help? Have questions?
-
-- 📧 Email: support@example.com
-- 💬 Discord: [Join our server](https://discord.gg/yourserver)
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/ai-resume-analyzer/issues)
-- 📚 Docs: [Full Documentation](https://docs.yourproject.com)
-
----
 
 ## ⭐ Show Your Support
 
