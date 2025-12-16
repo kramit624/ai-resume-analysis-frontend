@@ -1,0 +1,26 @@
+# Create .gitignore file
+@"
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build
+dist/
+build/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+"@ | Out-File -FilePath .gitignore -Encoding utf8
